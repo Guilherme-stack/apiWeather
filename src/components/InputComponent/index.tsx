@@ -13,7 +13,7 @@ export const InputComponent = () => {
                         <Text fontWeight="700" fontSize="20px">Sua cidade:</Text>
                         <Input />
                     </Box>
-                    <Button width="100%">Entrar</Button>
+                    <Button width="100%">Buscar cidade</Button>
                 </VStack>
             </Flex>
         </>
