@@ -1,1 +1,37 @@
- 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body{
+    font-family: "Poppins" !important;
+}
+
+.erro{
+    position:fixed; top:10px;width:560px; text-align:center;left:50%;
+    margin-left:-280px; opacity:1;transition: 0.3s;
+}
+.sucess{
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.animation{
+  animation: animationWind 5s linear infinite;
+ }
+
+@keyframes animationWind {
+    0% {
+        margin-left: 0px;
+
+      }
+      25% {
+        margin-left: 10px;
+      }
+      50% {
+        margin-left: 0px;
+      }
+      75% {
+        margin-left: -10px;
+      }
+      100% {
+        margin-left: 0px;
+      }
+}
